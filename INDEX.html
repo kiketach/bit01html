@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <HTML lang="es">
 <head>
+    <title>My 1er HTML</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My 1er HTML</title>
+    <meta name="description" content="ayudamos a vender tus productos y servicios en internet">
+    <meta name="keywords" content="marketing digital, ecommerce" 
 </head>
+<a href="#informacion">Acerca del Autor</a>
+<a href="#experiencia">Su experiencia</a>
+<a href="#servicios">Que Ofrece</a>
 <body>
     <header> 
+        <figure>
+            <img srcset="foto.jpg" />
+        </figure>
+<section id="Informacion">
     <h1>Sobre el Autor</h1>
     <div>Nombre: Enrique Abril. Edad: 32 años.</div>
     <div>Ubicado en Bogota - Colombia</div>
     </header>
+</section>
     <hr>
+    <section id="experiencia">
     <h2>Experiencia Laboral</h2>
-    <span>3 años de experiencia en marketing digital y ECOMMERCER en 3 empresas colombianas</span>
+    <span>3 años de experiencia en marketing digital y ecommercer en 3 empresas colombianas</span>
     <span>Aplicando los metodos correctos de publicidad y mercadeo ha logrado el imcremento de ventas</span>
     <span>en estas empresas en mas de un 300% posterior a hacer iniciado sus servicios con ellos </span>
     <span> Si estas en esta pagina es porque fuiste recomendado!</span>
+</section>
     <hr>
+    <section id="servicios">
     <h3>Servicios</h3>
     <ul>
         <li>Diseño publicitario</li>
         <li>Canal de ventas Whatsapp</li>
         <li>Atencion al cliente</li>
+    </section>
     </ul>
     <h3>Canales de ventas</h3>
     <ol>
@@ -32,14 +46,17 @@
         <li>Presencial</li>
     </ol>
     <hr>
-    <footer>
-    <div> Si te interesa saber mas dejanos tus datos</div>
+   
+    <h4><div> Si te interesa saber mas dejanos tus datos!></div> </h4>
     <form>
-       <div> <input type="text" placeholder="Correo electronico" </input> </div> 
-        <div> <input type="text" placeholder="Nombre completo" </input> </div>
-        <div> </dic><input type="text" placeholder="Numero de contacto" </input> </div>
+       <div> <label for="Correo"> Correo</label>
+       <input type="email" id="Correo" /> </div>
+      <div><label for="Nombre completo"> Nombre Completo</label>
+       <input type="text" id="Nombre" /> </div> 
+       <div><label for="Numero"> Numero de Contacto</label>
+        <input type="number" id="Numero" /> </div> 
         <button>Enviar</button>
     </form>
-    </footer>
+    <footer> <small>Reservados todos los derechos</small></footer>
 </body>
 </HTML
